@@ -1,5 +1,5 @@
 language: smalltalk
-dist: xenial
+dist: Xenial
 
 os: linux
 
