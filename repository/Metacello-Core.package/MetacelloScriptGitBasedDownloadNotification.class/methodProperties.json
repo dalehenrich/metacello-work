@@ -1,9 +1,8 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"versionString" : " 9/28/2017 08:54:38",
-		"versionString:" : " 9/28/2017 08:54:38",
-		"projectPath" : " 9/28/2017 08:54:38",
-		"projectPath:" : " 9/28/2017 08:54:38"
-	},
-	"class" : { }
-}
+		"projectPath" : "9/28/2017 08:54:38",
+		"projectPath:" : "9/28/2017 08:54:38",
+		"versionString" : "9/28/2017 08:54:38",
+		"versionString:" : "9/28/2017 08:54:38" } }

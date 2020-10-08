@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "MetacelloCleanNotification",
 	"category" : "Metacello-Core-Exceptions-Notifications",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "MetacelloCleanLoadNotification",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloCleanNotification",
+	"type" : "normal" }

@@ -1,22 +1,21 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"resolveSpec:with:" : " 9/28/2017 08:53:29",
-		"packagesNeedSavingUsing:into:" : " 9/28/2017 08:53:29",
-		"repositoryFor:with:" : " 9/28/2017 08:53:29",
-		"copySpec:with:to:" : " 9/28/2017 08:53:29",
-		"actionLabel" : " 9/28/2017 08:53:29",
-		"goferCommitBranchPackage:using:commitMessage:" : " 9/28/2017 08:53:29",
-		"postLoad:" : " 9/28/2017 08:53:29",
-		"resolveSpec:from:" : " 9/28/2017 08:53:29",
-		"savePackageUsing:" : " 9/28/2017 08:53:29",
-		"latestPackage:fromRepository:" : " 9/28/2017 08:53:29",
-		"linearLoadPackageSpec:gofer:" : " 9/28/2017 08:53:29",
-		"doLoad" : " 9/28/2017 08:53:29",
-		"preLoad:" : " 9/28/2017 08:53:29",
-		"fetchingSpecLoader" : " 9/28/2017 08:53:29",
-		"goferCommitPackageUsing:commitMessage:" : " 9/28/2017 08:53:29",
-		"copySpec:from:to:" : " 9/28/2017 08:53:29",
-		"repositoryFor:from:" : " 9/28/2017 08:53:29"
-	},
-	"class" : { }
-}
+		"actionLabel" : "9/28/2017 08:53:29",
+		"copySpec:from:to:" : "9/28/2017 08:53:29",
+		"copySpec:with:to:" : "9/28/2017 08:53:29",
+		"doLoad" : "9/28/2017 08:53:29",
+		"fetchingSpecLoader" : "9/28/2017 08:53:29",
+		"goferCommitBranchPackage:using:commitMessage:" : "9/28/2017 08:53:29",
+		"goferCommitPackageUsing:commitMessage:" : "9/28/2017 08:53:29",
+		"latestPackage:fromRepository:" : "9/28/2017 08:53:29",
+		"linearLoadPackageSpec:gofer:" : "9/28/2017 08:53:29",
+		"packagesNeedSavingUsing:into:" : "9/28/2017 08:53:29",
+		"postLoad:" : "9/28/2017 08:53:29",
+		"preLoad:" : "9/28/2017 08:53:29",
+		"repositoryFor:from:" : "9/28/2017 08:53:29",
+		"repositoryFor:with:" : "9/28/2017 08:53:29",
+		"resolveSpec:from:" : "9/28/2017 08:53:29",
+		"resolveSpec:with:" : "9/28/2017 08:53:29",
+		"savePackageUsing:" : "9/28/2017 08:53:29" } }

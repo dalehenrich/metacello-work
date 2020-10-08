@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"updateRepositories" : " 9/28/2017 08:53:29",
-		"updateCategories" : " 9/28/2017 08:53:29"
-	},
-	"class" : { }
-}
+		"updateCategories" : "9/28/2017 08:53:29",
+		"updateRepositories" : "9/28/2017 08:53:29" } }

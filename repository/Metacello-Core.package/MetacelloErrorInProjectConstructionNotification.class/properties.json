@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "Notification",
 	"category" : "Metacello-Core-Exceptions-Notifications",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"versionString",
-		"exception"
-	],
+		"exception" ],
 	"name" : "MetacelloErrorInProjectConstructionNotification",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

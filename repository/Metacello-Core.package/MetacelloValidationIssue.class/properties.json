@@ -1,16 +1,17 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
 	"category" : "Metacello-Core-Validation",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"configurationClass",
 		"explanation",
 		"reasonCode",
-		"callSite"
-	],
+		"callSite" ],
 	"name" : "MetacelloValidationIssue",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

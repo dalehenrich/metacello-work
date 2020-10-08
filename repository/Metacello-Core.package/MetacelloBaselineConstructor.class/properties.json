@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "dkh 5/4/2012 17:05",
-	"super" : "MetacelloAbstractVersionConstructor",
 	"category" : "Metacello-Core-Constructors",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 5/4/2012 17:05",
+	"instvars" : [
+		 ],
 	"name" : "MetacelloBaselineConstructor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloAbstractVersionConstructor",
+	"type" : "normal" }

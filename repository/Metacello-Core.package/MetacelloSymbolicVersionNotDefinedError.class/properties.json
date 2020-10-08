@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "MetacelloSymbolicVersionDoesNotExistError",
 	"category" : "Metacello-Core-Exceptions-Errors",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "MetacelloSymbolicVersionNotDefinedError",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloSymbolicVersionDoesNotExistError",
+	"type" : "normal" }

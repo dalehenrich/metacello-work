@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "MetacelloGenericProjectSpec",
 	"category" : "Metacello-MC-Specs",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"file"
-	],
+		"file" ],
 	"name" : "MetacelloMCProjectSpec",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloGenericProjectSpec",
+	"type" : "normal" }

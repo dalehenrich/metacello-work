@@ -1,16 +1,17 @@
 {
-	"commentStamp" : "",
-	"super" : "MetacelloSpec",
 	"category" : "Metacello-Core-Specs",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"name",
 		"requires",
 		"includes",
-		"answers"
-	],
+		"answers" ],
 	"name" : "MetacelloAbstractPackageSpec",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloSpec",
+	"type" : "normal" }

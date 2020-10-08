@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GoferCommit",
 	"category" : "Metacello-MC-Gofer",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "MetacelloGoferCommit",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GoferCommit",
+	"type" : "normal" }

@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "dkh 6/24/2012 18:20",
-	"super" : "Magnitude",
 	"category" : "Metacello-Core-Model",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 6/24/2012 18:20",
 	"instvars" : [
 		"normalVersion",
 		"preReleaseVersion",
-		"buildVersion"
-	],
+		"buildVersion" ],
 	"name" : "MetacelloSemanticVersionNumber",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Magnitude",
+	"type" : "normal" }

@@ -1,4 +1,3 @@
-SystemOrganization addCategory: #'Metacello-Core'!
 SystemOrganization addCategory: #'Metacello-Core-Constructors'!
 SystemOrganization addCategory: #'Metacello-Core-Deprecated'!
 SystemOrganization addCategory: #'Metacello-Core-Exceptions-Errors'!

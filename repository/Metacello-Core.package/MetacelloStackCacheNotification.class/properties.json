@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "Notification",
 	"category" : "Metacello-Core-Exceptions-Notifications",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "MetacelloStackCacheNotification",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

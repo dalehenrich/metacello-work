@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "MetacelloAbstractConstructor",
 	"category" : "Metacello-Core-Constructors",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"root",
 		"configuration",
@@ -12,8 +12,9 @@
 		"attributeMap",
 		"attributeOrder",
 		"symbolicVersion",
-		"currentContext"
-	],
+		"currentContext" ],
 	"name" : "MetacelloAbstractVersionConstructor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloAbstractConstructor",
+	"type" : "normal" }

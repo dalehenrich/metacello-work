@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"copyForRegistration:onWrite:" : " 9/28/2017 08:53:29",
-		"asProjectSpecForVersion:" : " 9/28/2017 08:53:29"
-	},
-	"class" : { }
-}
+		"asProjectSpecForVersion:" : "9/28/2017 08:53:29",
+		"copyForRegistration:onWrite:" : "9/28/2017 08:53:29" } }

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "MetacelloSemanticVersionNumber",
 	"category" : "Metacello-Core-Model",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "MetacelloOldSemanticVersionNumber",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloSemanticVersionNumber",
+	"type" : "normal" }

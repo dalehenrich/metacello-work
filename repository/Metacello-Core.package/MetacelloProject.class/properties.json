@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
 	"category" : "Metacello-Core-Model",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"versionMap",
 		"symbolicVersionMap",
@@ -14,8 +14,9 @@
 		"loadType",
 		"configuration",
 		"projectAttributes",
-		"versionNumberClass"
-	],
+		"versionNumberClass" ],
 	"name" : "MetacelloProject",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
