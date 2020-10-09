@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"methodSource" : " 9/28/2017 08:54:38",
-		"versionString" : " 9/28/2017 08:54:38",
-		"methodSelectorAndPragma:imports:on:" : " 9/28/2017 08:54:38"
-	},
-	"class" : { }
-}
+		"methodSelectorAndPragma:imports:on:" : "9/28/2017 08:54:38",
+		"methodSource" : "9/28/2017 08:54:38",
+		"versionString" : "9/28/2017 08:54:38" } }

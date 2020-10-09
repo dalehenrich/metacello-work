@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "dkh 1/26/2012 09:49",
-	"super" : "MetacelloVersionValidator",
 	"category" : "Metacello-MC-Validation",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 1/26/2012 09:49",
+	"instvars" : [
+		 ],
 	"name" : "MetacelloMCVersionValidator",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloVersionValidator",
+	"type" : "normal" }

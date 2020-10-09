@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GoferResolvedReference",
 	"category" : "Metacello-MC-Gofer",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"cachedVersion"
-	],
+		"cachedVersion" ],
 	"name" : "MetacelloCachingGoferResolvedReference",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GoferResolvedReference",
+	"type" : "normal" }

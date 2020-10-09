@@ -1,20 +1,19 @@
 {
-	"commentStamp" : "",
-	"super" : "MetacelloAbstractConstructor",
 	"category" : "Metacello-Core-Validation",
 	"classinstvars" : [
-		"reasonCodeDescriptions"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"reasonCodeDescriptions" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"configurationClass",
 		"exludededValidations",
 		"validationReport",
 		"recurse",
 		"debug",
-		"visited"
-	],
+		"visited" ],
 	"name" : "MetacelloVersionValidator",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloAbstractConstructor",
+	"type" : "normal" }

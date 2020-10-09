@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "MetacelloFetchingMCSpecLoader",
 	"category" : "Metacello-MC-Loaders",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "MetacelloEnsureFetchingMCSpecLoader",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloFetchingMCSpecLoader",
+	"type" : "normal" }

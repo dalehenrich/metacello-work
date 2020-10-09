@@ -1,10 +1,9 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"projectVersion:" : " 9/28/2017 08:54:38",
-		"versionString:" : " 9/28/2017 08:54:38",
-		"projectVersion" : " 9/28/2017 08:54:38",
-		"versionString" : " 9/28/2017 08:54:38",
-		"setVersionString:" : " 9/28/2017 08:54:38"
-	},
-	"class" : { }
-}
+		"projectVersion" : "9/28/2017 08:54:38",
+		"projectVersion:" : "9/28/2017 08:54:38",
+		"setVersionString:" : "9/28/2017 08:54:38",
+		"versionString" : "9/28/2017 08:54:38",
+		"versionString:" : "9/28/2017 08:54:38" } }

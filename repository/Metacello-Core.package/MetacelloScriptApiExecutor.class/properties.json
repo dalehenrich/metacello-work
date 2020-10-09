@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "dkh 7/12/2012 14:49",
-	"super" : "MetacelloScriptExecutor",
 	"category" : "Metacello-Core-Scripts",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 7/12/2012 14:49",
+	"instvars" : [
+		 ],
 	"name" : "MetacelloScriptApiExecutor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloScriptExecutor",
+	"type" : "normal" }

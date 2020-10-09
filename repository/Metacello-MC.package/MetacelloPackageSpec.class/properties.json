@@ -1,17 +1,18 @@
 {
-	"commentStamp" : "",
-	"super" : "MetacelloAbstractPackageSpec",
 	"category" : "Metacello-MC-Specs",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"file",
 		"repositories",
 		"goferPackage",
 		"preLoadDoIt",
-		"postLoadDoIt"
-	],
+		"postLoadDoIt" ],
 	"name" : "MetacelloPackageSpec",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloAbstractPackageSpec",
+	"type" : "normal" }

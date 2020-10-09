@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "MetacelloToolBoxConstructor",
 	"category" : "Metacello-Core-Constructors",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "MetacelloToolBoxBaselineConstructor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloToolBoxConstructor",
+	"type" : "normal" }

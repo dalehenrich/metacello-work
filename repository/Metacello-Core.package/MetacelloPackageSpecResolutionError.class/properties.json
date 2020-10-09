@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "Error",
 	"category" : "Metacello-Core-Exceptions-Errors",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"packageSpec",
 		"repositories",
-		"repositoryError"
-	],
+		"repositoryError" ],
 	"name" : "MetacelloPackageSpecResolutionError",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

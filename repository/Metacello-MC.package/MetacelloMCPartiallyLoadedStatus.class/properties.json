@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
 	"category" : "Metacello-MC-Specs",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"hasNoPackage",
 		"hasNoProject",
@@ -19,8 +19,9 @@
 		"aProjectNotLoaded",
 		"aPackageNotLoaded",
 		"vrsnStatus",
-		"abort"
-	],
+		"abort" ],
 	"name" : "MetacelloMCPartiallyLoadedStatus",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

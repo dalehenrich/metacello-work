@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "MetacelloSpec",
 	"category" : "Metacello-Core-Specs",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"versionString",
 		"blessing",
@@ -15,8 +15,9 @@
 		"postLoadDoIt",
 		"packageList",
 		"importName",
-		"importArray"
-	],
+		"importArray" ],
 	"name" : "MetacelloVersionSpec",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MetacelloSpec",
+	"type" : "normal" }
