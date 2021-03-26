@@ -131,7 +131,7 @@ If you want to override the default behavior you can use one the following messa
     load: 'Seaside'.
   ```
 
-3. Access the underlying exception and the loaded and incoming Metacello regitrations with the **#onUpgrade:** message:
+3. Access the underlying exception and the loaded and incoming Metacello registrations with the **#onUpgrade:** message:
 
   ```Smalltalk
   Metacello new
@@ -232,7 +232,7 @@ As a consequence, you must decide how you want to have the conflict resolved:
     load: 'Seaside'.
   ```
 
-4. Access the underlying exception and the loaded and incoming Metacello regitrations with the **#onConflict:** message:
+4. Access the underlying exception and the loaded and incoming Metacello registrations with the **#onConflict:** message:
 
   ```Smalltalk
   Metacello new
@@ -310,7 +310,7 @@ Metacello image
   list.
 ```
 
-The `baseline:` message works in the same fashion as `configuration:` except that it deals with basenlines.
+The `baseline:` message works in the same fashion as `configuration:` except that it deals with baselines.
 
 
 ## Getting
@@ -497,7 +497,7 @@ Metacello registry
   load.
 ```
 
-If you want to `break` all locks uncoditionally then use `onLockBreak`:
+If you want to `break` all locks unconditionally then use `onLockBreak`:
 
 ```Smalltalk
 Metacello registry
