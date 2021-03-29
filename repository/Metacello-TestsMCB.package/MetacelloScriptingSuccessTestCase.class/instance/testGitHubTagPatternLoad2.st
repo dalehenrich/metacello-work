@@ -1,6 +1,6 @@
 tests
 testGitHubTagPatternLoad2
-  "
+	"
 3f9b964d7971ebbdf571c0eb7456075a4b3177f9 - 1.0-beta.32Tests
 29efb3d9cb86da55402a543cbef5771e39f864e7 - v1.1.1-gs
 0af534cea41d5ec22041b5e2bb45f4c48d58497e - v1.1.2-gs
@@ -13,24 +13,28 @@ bea35be90ab1ba0be80af4f4275fccbfc071a74f - v2.2.0-gs
 6ae699635ab41ab55219aea0595de208f4e44d27 - v3.0.0-gs
 "
 
-  [ 
-  Metacello new
-    baseline: 'External';
-    repository: 'github://dalehenrich/external:v1.?/repository';
-    get;
-    load.
-  self
-    verify: 'External-Core'
-    loadedFrom: 'github://dalehenrich/external:v1.3.0-gs/repository' ]
-    on: Error
-    do: [ :ex | 
-      "keep an eye out for rate limiting errors from github for anonymous api usage"
-      Transcript
-        cr;
-        show: 'testGitHubTagPatternLoad2: ' , ex description.
-      (MetacelloPlatform current
-        string: ex description
-        includesSubstring: 'API rate limit exceeded')
-        ifFalse: [ 
-          "don't fail test because github rate limit exceeded"
-          ex pass ] ]
+	true
+		ifTrue: [ 
+			"see https://github.com/Metacello/metacello/issues/540"
+			^ self ].
+	[ 
+	Metacello new
+		baseline: 'External';
+		repository: 'github://dalehenrich/external:v1.?/repository';
+		get;
+		load.
+	self
+		verify: 'External-Core'
+		loadedFrom: 'github://dalehenrich/external:v1.3.0-gs/repository' ]
+		on: Error
+		do: [ :ex | 
+			"keep an eye out for rate limiting errors from github for anonymous api usage"
+			Transcript
+				cr;
+				show: 'testGitHubTagPatternLoad2: ' , ex description.
+			(MetacelloPlatform current
+				string: ex description
+				includesSubstring: 'API rate limit exceeded')
+				ifFalse: [ 
+					"don't fail test because github rate limit exceeded"
+					ex pass ] ]
