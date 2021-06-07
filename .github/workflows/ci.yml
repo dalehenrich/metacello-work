@@ -29,7 +29,6 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
-          smalltalk_config: ${{ matrix.config }}
       - name: Run tests
         run: smalltalkci -s ${{ matrix.smalltalk }} ${{ matrix.config }}
         shell: bash
