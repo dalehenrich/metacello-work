@@ -31,7 +31,7 @@ jobs:
           smalltalk-image: ${{ matrix.smalltalk }}
           smalltalk_config: ${{ matrix.config }}
       - name: Run tests
-        run: smalltalkci -s ${{ matrix.smalltalk }}
+        run: smalltalkci -s ${{ matrix.smalltalk }} ${{ matrix.config }}
         shell: bash
         timeout-minutes: 20
   slack-workflow-status:
