@@ -18,6 +18,10 @@ jobs:
         include: 
           - smalltalk: GemStone64-2.4.8
             experimental: true
+            config: .smalltalkA.ston
+          - smalltalk: GemStone64-2.4.8
+            experimental: true
+            config: .smalltalkB.ston
     continue-on-error: ${{ matrix.experimental }}
     name: ${{ matrix.smalltalk }} ${{ matrix.config }}
     steps:
