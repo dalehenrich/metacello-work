@@ -1,5 +1,7 @@
 # Work on Metacello has moved to: https://github.com/Metacello/metacello
 
+[![Build Status](https://github.com/dalehenrich/metacello-work/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dalehenrich/metacello-work/actions/workflows/ci.yml)
+
 ## INSTALL Preview Version
 
 ### GemStone
