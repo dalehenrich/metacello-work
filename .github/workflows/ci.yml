@@ -12,7 +12,7 @@ jobs:
   build:
     strategy:
       fail-fast: false
-       matrix:
+      matrix:
         os: [ ubuntu-20.04, macos-latest ]
         smalltalk: [ GemStone64-3.6.5, GemStone64-3.5.8 ]
         config: [ .smalltalkA.ston, .smalltalkB.ston ]
