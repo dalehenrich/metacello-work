@@ -16,7 +16,7 @@ jobs:
         os: [ ubuntu-20.04, macos-latest ]
         smalltalk: [ GemStone64-3.6.5, GemStone64-3.5.8 ]
         config: [ .smalltalkA.ston, .smalltalkB.ston ]
-    runs-on: ${{ matrix.smalltalk }}
+    runs-on: ${{ matrix.os }}
     name: ${{ matrix.smalltalk }} ${{ matrix.config }}
     steps:
       - uses: actions/checkout@v2
