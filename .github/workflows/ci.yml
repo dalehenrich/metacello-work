@@ -14,10 +14,10 @@ jobs:
       fail-fast: false
       matrix:
         os: [ ubuntu-20.04, macos-latest ]
-        smalltalk: [ GemStone64-3.6.5, GemStone64-3.5.8 ]
+        smalltalk: [ GemStone64-3.7.0, GemStone64-3.6.6, GemStone64-3.5.8 ]
         config: [ .smalltalkA.ston, .smalltalkB.ston ]
     runs-on: ${{ matrix.os }}
-    name: ${{ matrix.smalltalk }} ${{ matrix.config }}
+    name: ${{ matrix.smalltalk }} ${{ matrix.os }} ${{ matrix.config }}
     steps:
       - uses: actions/checkout@v2
       - uses: hpi-swa/setup-smalltalkCI@v1
@@ -26,7 +26,7 @@ jobs:
       - name: Run tests
         run: smalltalkci -s ${{ matrix.smalltalk }} ${{ matrix.config }}
         shell: bash
-        timeout-minutes: 30
+        timeout-minutes: 35
   slack-workflow-status:
     if: always()
     name: Post Workflow Status To Slack
