@@ -18,7 +18,7 @@ jobs:
         config: [ .smalltalkA.ston, .smalltalkB.ston ]
         include:
           - smalltalk: GemStone64-3.5.8
-            os: macos-latest
+            os: macos-12
           - smalltalk: GemStone64-3.6.6
             os: macos-latest
     runs-on: ${{ matrix.os }}
