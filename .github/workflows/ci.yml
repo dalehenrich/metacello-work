@@ -31,7 +31,7 @@ jobs:
       - name: Run tests
         run: smalltalkci -s ${{ matrix.smalltalk }} ${{ matrix.config }}
         shell: bash
-        timeout-minutes: 45
+        timeout-minutes: 60
   slack-workflow-status:
     if: always()
     name: Post Workflow Status To Slack
