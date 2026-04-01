@@ -47,7 +47,7 @@ baseline310adaptors: spec
     spec
         for: #'gemstone'
         do: [ 
-            spec repository: 'http://seaside.gemstone.com/ss/Seaside30'.
+            spec repository: 'http://seaside.gemtalksystems.com/ss/Seaside30'.
             spec
                 package: 'Seaside-Adaptors-Swazoo' with: [ spec includes: #('Seaside-GemStone-Adaptors-Swazoo') ];
                 package: 'Zinc-Seaside' with: [ spec includes: #('Seaside-GemStone-Adaptors-Zinc') ];

@@ -15,7 +15,7 @@ baseline300alpha503: spec
 					projectPackage: [
 						spec
 							name: 'ConfigurationOfGrease';
-							repository: 'http://seaside.gemstone.com/ss/Seaside30' ]];
+							repository: 'http://seaside.gemtalksystems.com/ss/Seaside30' ]];
 			project: 'Grease Tests'
 				copyFrom: 'Grease'
 				with: [ 
@@ -261,7 +261,7 @@ baseline300alpha503: spec
 			yourself. ].
 
 	spec for: #gemstone do: [
-		spec repository: 'http://seaside.gemstone.com/ss/Seaside30'.
+		spec repository: 'http://seaside.gemtalksystems.com/ss/Seaside30'.
 
 		spec 
 			project: 'FastCGI' with: [
@@ -271,14 +271,14 @@ baseline300alpha503: spec
 					projectPackage: [
 						spec
 							name: 'ConfigurationOfGsFastCGI';
-							repository: 'http://seaside.gemstone.com/ss/fastcgi' ]];
+							repository: 'http://seaside.gemtalksystems.com/ss/fastcgi' ]];
 			project: 'OB' with: [
 				spec
 					className: 'ConfigurationOfGsOB';
 					projectPackage: [
 						spec
 							name: 'ConfigurationOfGsOB';
-							repository: 'http://seaside.gemstone.com/ss/GemStone' ]];
+							repository: 'http://seaside.gemtalksystems.com/ss/GemStone' ]];
 			yourself.
 
 		spec

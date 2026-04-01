@@ -5,7 +5,7 @@ baseline310gemstone: spec
         for: #'gemstone'
         do: [ 
             spec blessing: #'baseline'.
-            spec repository: 'http://seaside.gemstone.com/ss/Seaside30'.
+            spec repository: 'http://seaside.gemtalksystems.com/ss/Seaside30'.
             spec
                 package: 'Seaside-Core' with: [ spec includes: #('Seaside-GemStone-Core') ];
                 package: 'Seaside-Development' with: [ spec includes: #('Seaside-GemStone-Development') ];

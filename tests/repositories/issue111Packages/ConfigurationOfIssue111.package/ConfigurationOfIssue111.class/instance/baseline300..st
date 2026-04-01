@@ -174,7 +174,7 @@ baseline300: spec
 			group: 'Development Tests' with: #('Seaside-Tests-Slime' );
 			yourself. ].
 	spec for: #gemstone do: [
-		spec repository: 'http://seaside.gemstone.com/ss/Seaside30'.
+		spec repository: 'http://seaside.gemtalksystems.com/ss/Seaside30'.
 
 		spec 
 			project: 'GsCore' with: [
@@ -182,20 +182,20 @@ baseline300: spec
 					className: 'ConfigurationOfGsCore';
 					versionString: '0.239-baseline';
 					file: 'ConfigurationOfGsCore';
-					repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+					repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
 			project: 'FastCGI' with: [
 				spec
 					className: 'ConfigurationOfGsFastCGI';
 					versionString: '0.231-baseline';
 					loads: #('FastCGI' );
 					file: 'ConfigurationOfGsFastCGI';
-					repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+					repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
 			project: 'OB' with: [
 				spec
 					className: 'ConfigurationOfGsOB';
 					versionString: '0.239-baseline';
 					file: 'ConfigurationOfGsOB';
-					repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+					repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
 			yourself.
 
 		spec

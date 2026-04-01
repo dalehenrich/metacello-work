@@ -40,7 +40,7 @@ baseline310javascript: spec
 				spec includes: #('Javascript-Tests-Pharo-Core' ) ] ].
 		
 	spec for: #'gemstone' do: [
-		spec repository: 'http://seaside.gemstone.com/ss/Seaside30'.
+		spec repository: 'http://seaside.gemtalksystems.com/ss/Seaside30'.
 		spec 
 			package: 'Javascript-Core' with: [
 				spec includes: #('Javascript-GemStone-Core' ). ];

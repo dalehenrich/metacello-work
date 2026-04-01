@@ -13,14 +13,14 @@ baseline11: spec
 					versionString: '1.1';
 					loads: #('default' );
 					file: 'Metacello-Tutorial';
-					repository: 'http://seaside.gemstone.com/ss/metacello' ];
+					repository: 'http://seaside.gemtalksystems.com/ss/metacello' ];
 			project: 'Example Tests' with: [
 				spec
 					className: 'MetacelloTutorialConfig';
 					versionString: '1.1';
 					loads: #('Tests' );
 					file: 'Metacello-Tutorial';
-					repository: 'http://seaside.gemstone.com/ss/metacello' ].
+					repository: 'http://seaside.gemtalksystems.com/ss/metacello' ].
 		spec 
 			package: 'Project-Core' with: [ spec requires: 'Example Default' ];
 			package: 'Project-Tests' with: [ 

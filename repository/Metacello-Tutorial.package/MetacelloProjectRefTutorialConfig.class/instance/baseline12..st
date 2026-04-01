@@ -12,7 +12,7 @@ baseline12: spec
 					versionString: '1.2';
 					loads: #('default' );
 					file: 'Metacello-Tutorial';
-					repository: 'http://seaside.gemstone.com/ss/metacello' ];
+					repository: 'http://seaside.gemtalksystems.com/ss/metacello' ];
 			project: 'Example Tests' 
 				copyFrom: 'Example Default' 
 				with: [ spec loads: #('Tests' ).].

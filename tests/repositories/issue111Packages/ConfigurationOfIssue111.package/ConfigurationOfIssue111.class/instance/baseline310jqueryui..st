@@ -15,6 +15,6 @@ baseline310jqueryui: spec
 			group: 'JQueryUI Examples' with: #('JQuery-Tests-UI' ) ].
 		
 	spec for: #'gemstone' do: [
-		spec repository: 'http://seaside.gemstone.com/ss/Seaside30'.
+		spec repository: 'http://seaside.gemtalksystems.com/ss/Seaside30'.
 		spec 
 			package: 'JQuery-UI' with: 'JQuery-UI.gemstone' ].

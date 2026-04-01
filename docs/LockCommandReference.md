@@ -268,7 +268,7 @@ baseline1000: spec
     for: #'common'
     do: [ 
       spec blessing: #'baseline'.
-      spec repository: 'http://ss3.gemstone.com/ss/external'.
+      spec repository: 'http://ss3.gemtalksystems.com/ss/external'.
       spec
         package: 'External-Core';
         package: 'External-Tests' with: [ spec requires: 'External-Core' ];
@@ -394,7 +394,7 @@ baseline: spec
 ```
 
 ### External Project
-[External project repository](http://ss3.gemstone.com/ss/external.html)
+[External project repository](http://ss3.gemtalksystems.com/ss/external.html)
 
 Configuration:
 
@@ -405,7 +405,7 @@ baseline1000: spec
     for: #'common'
     do: [ 
       spec blessing: #'baseline'.
-      spec repository: 'http://ss3.gemstone.com/ss/external'.
+      spec repository: 'http://ss3.gemtalksystems.com/ss/external'.
       spec
         package: 'External-Core';
         package: 'External-Tests' with: [ spec requires: 'External-Core' ];

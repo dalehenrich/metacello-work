@@ -27,7 +27,7 @@ testProjectRef14
 	versionString: ''1.3'';
 	loads: #(''default'' );
 	file: ''Metacello-Tutorial'';
-	repository: ''http://seaside.gemstone.com/ss/metacello''.'.
+	repository: ''http://seaside.gemtalksystems.com/ss/metacello''.'.
     string := (version packageNamed: 'Core') printString.
     self
         assert:
@@ -37,7 +37,7 @@ testProjectRef14
 	name: ''Core'';
 	includes: #(''default'' ).'.
     self shouldnt: [ (version packageNamed: 'Project-Core') requires ] raise: Error.
-    self assert: ((version packageNamed: 'Example Default') repositoryDescriptions) asArray = #('http://seaside.gemstone.com/ss/metacello').
+    self assert: ((version packageNamed: 'Example Default') repositoryDescriptions) asArray = #('http://seaside.gemtalksystems.com/ss/metacello').
     self shouldnt: [ (version packageNamed: 'default') requires ] raise: Error.
     self shouldnt: [ version packagesForSpecNamed: 'Core' ] raise: Error.
     self shouldnt: [ version load: 'Core' ] raise: Error.

@@ -12,7 +12,7 @@ baseline10: spec
 					versionString: '1.0';
 					loads: #('ALL' );
 					file: 'MetacelloTutorialConfig';
-					repository: 'http://seaside.gemstone.com/ss/metacello' ].
+					repository: 'http://seaside.gemtalksystems.com/ss/metacello' ].
 		spec 
 			package: 'Project-Core' with: [ spec requires: 'Example ALL' ];
 			package: 'Project-Tests' with: [ spec requires: 'Project-Core' ].].

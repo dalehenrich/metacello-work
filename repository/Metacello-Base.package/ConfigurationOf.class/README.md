@@ -28,7 +28,7 @@ To create a new Metacello configuration:
       <baseline: '1.0-baseline'>
 
       spec for: #common do: [
-        spec repository: 'http://ss3.gemstone.com/ss/Example'.
+        spec repository: 'http://ss3.gemtalksystems.com/ss/Example'.
         spec
           package: 'Example-Core';
           package: 'Example-Tests' with: [

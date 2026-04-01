@@ -147,24 +147,24 @@ baseline3061: spec
 			group: 'Development Tests' with: #('Seaside-Tests-Slime' ). ].
 
 	spec for: #'gemstone' do: [
-		spec repository: 'http://seaside.gemstone.com/ss/Seaside30'.
+		spec repository: 'http://seaside.gemtalksystems.com/ss/Seaside30'.
 		spec 
 			project: 'GsCore' with: [
 				spec
 					className: 'ConfigurationOfGsCore';
 					versionString: #'stable';
-					repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+					repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
 			project: 'FastCGI' with: [
 				spec
 					className: 'ConfigurationOfGsFastCGI';
 					versionString: #'stable';
 					loads: #('FastCGI' );
-					repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+					repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
 			project: 'OB' with: [
 				spec
 					className: 'ConfigurationOfGsOB';
 					versionString: #'stable';
-					repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ].
+					repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ].
 		spec 
 			package: 'Javascript-Core' with: [
 				spec includes: #('Javascript-GemStone-Core' ). ];

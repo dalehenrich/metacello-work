@@ -10,4 +10,4 @@ baselineAuthentication: spec
 					spec className: 'BogusConfiguration';
 						 file: 'BogusConfiguration';
 						 version: 'default';
-						 repository: 'http://seaside.gemstone.com/ss/authenticationRequired' username: 'foo' password: 'bar']]
+						 repository: 'http://seaside.gemtalksystems.com/ss/authenticationRequired' username: 'foo' password: 'bar']]

@@ -145,7 +145,7 @@ baseline300alpha506: spec
 			group: 'Tests' with: #('Seaside-Tests-Slime' );
 			yourself. ].
 	spec for: #gemstone do: [
-		spec repository: 'http://seaside.gemstone.com/ss/Seaside30'.
+		spec repository: 'http://seaside.gemtalksystems.com/ss/Seaside30'.
 
 		spec 
 			project: 'FastCGI' with: [
@@ -153,12 +153,12 @@ baseline300alpha506: spec
 					className: 'ConfigurationOfGsFastCGI';
 					loads: #('FastCGI' );
 					file: 'ConfigurationOfGsFastCGI';
-					repository: 'http://seaside.gemstone.com/ss/fastcgi' ];
+					repository: 'http://seaside.gemtalksystems.com/ss/fastcgi' ];
 			project: 'OB' with: [
 				spec
 					className: 'ConfigurationOfGsOB';
 					file: 'ConfigurationOfGsOB';
-					repository: 'http://seaside.gemstone.com/ss/GemStone' ];
+					repository: 'http://seaside.gemtalksystems.com/ss/GemStone' ];
 			yourself.
 
 		spec

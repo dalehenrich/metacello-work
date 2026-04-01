@@ -6,7 +6,7 @@ testIssue136Loading
           BaselineOfGithubRefVII --> MetacelloScriptingResource>>baselineGithubReferenceIV:
           BaselineOfGithubRefVIII --> MetacelloScriptingResource>>baselineGithubReferenceV:
        reference the External project, but each reference is for a different repository:
-          BaselineOfGithubRefVII -->  MetacelloScriptingResource>>baselineGithubReferenceIV: --> http://ss3.gemstone.com/ss/external
+          BaselineOfGithubRefVII -->  MetacelloScriptingResource>>baselineGithubReferenceIV: --> http://ss3.gemtalksystems.com/ss/external
           BaselineOfGithubRefVIII --> MetacelloScriptingResource>>baselineGithubReferenceV: --> github://dalehenrich/external:XXXXXXXXX/repository
       the first one loaded (BaselineOfGithubRefVII) should win
 	 "

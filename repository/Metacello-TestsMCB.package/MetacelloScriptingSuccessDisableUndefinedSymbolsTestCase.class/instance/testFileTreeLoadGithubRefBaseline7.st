@@ -1,6 +1,6 @@
 tests
 testFileTreeLoadGithubRefBaseline7
-  "BaselineOfExternal reference from http://ss3.gemstone.com/ss/external.html using #baseline:with:"
+  "BaselineOfExternal reference from http://ss3.gemtalksystems.com/ss/external.html using #baseline:with:"
 
   Metacello new
     baseline: 'GithubRefVII';

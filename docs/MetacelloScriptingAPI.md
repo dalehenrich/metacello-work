@@ -79,7 +79,7 @@ Metacello new
 ```
 
 downloads the `ConfigurationOfSample` package from
-`http://ss3.gemstone.com/ss/Sample` and 
+`http://ss3.gemtalksystems.com/ss/Sample` and 
 proceeds to load the `default` group of `Sample 0.9.0` into your image.
 
 The above expression is equivalent to the following old-style `Gofer-based`

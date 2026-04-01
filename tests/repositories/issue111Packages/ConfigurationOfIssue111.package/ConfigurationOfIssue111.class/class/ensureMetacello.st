@@ -7,7 +7,7 @@ ensureMetacello
 		"list of repositories to try, in case primary repository is not accessible"
 		(Array 
 			with: 'http://www.squeaksource.com/MetacelloRepository' 
-			with: 'http://seaside.gemstone.com/ss/metacello') do: [:repositoryUrl |
+			with: 'http://seaside.gemtalksystems.com/ss/metacello') do: [:repositoryUrl |
 				([
 					Smalltalk at: #Gofer ifAbsent: [
 						"Current version of Gofer from which to bootstrap - as of 1.0-beta.21"

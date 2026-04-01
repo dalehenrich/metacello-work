@@ -10,4 +10,4 @@ baseline: spec
 					spec className: 'BogusConfiguration';
 						 file: 'BogusConfiguration';
 						 version: 'default';
-						 repository: 'http://seaside.gemstone.com/ss/bogus']]
+						 repository: 'http://seaside.gemtalksystems.com/ss/bogus']]
