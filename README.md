@@ -1,4 +1,4 @@
-# Work on Metacello has moved to: https://github.com/Metacello/metacello
+## This is the correct Metacello repository to load into GemStone
 
 [![Build Status](https://github.com/dalehenrich/metacello-work/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dalehenrich/metacello-work/actions/workflows/ci.yml)
 
@@ -118,7 +118,7 @@ If you are interested in using GitHub with the Metacello Preview, you should rea
 ### TravisCI Status
 **master branch**: [![Build Status](https://travis-ci.org/Metacello/metacello.svg?branch=master)](https://travis-ci.org/Metacello/metacello)
 
-### Some things to ponder 
+### Some things to ponder
 [Dear package managers: dependency resolution results should be in version control][6] ([twitter comment thread][7]).
 
 Interesting problem - non-reproducable builds when using non-exact dependent project versions. Wanders into the territory that Metacello locks for local git clones addresses ... but being able to communicate to others in some fashion is an interesting idea. 
